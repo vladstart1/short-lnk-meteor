@@ -44,6 +44,11 @@ class Login extends React.Component {
             <button className="button">Login</button>
           </form>
           <Link to="/signup">Need to register?</Link>
+          <div className="item item__status-message">
+            <h2>Account for test:</h2>
+            <p>Login: test1@yopmail.com</p>
+            <p>Password: test1forallusers</p>
+          </div>
         </div>
       </div>
     );
